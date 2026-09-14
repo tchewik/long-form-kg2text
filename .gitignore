@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Experiment outputs and trackers
+results/
+outputs/
+runs/
+wandb/
+.clearml/
+
+# Large models / checkpoints
+models/*
+!models/README.md
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Datasets / generated data
+data/*
+!data/README.md
+!data/metric_ranges.json
+*.sqlite
+*.sqlite3
+*.db
+*.xml.bz2
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/

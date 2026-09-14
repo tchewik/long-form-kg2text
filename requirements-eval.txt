@@ -1,0 +1,6 @@
+-r requirements.txt
+# BLEURT runtime dependencies. Install BLEURT itself from the upstream repository.
+tensorflow
+tf-slim>=1.1
+# AlignScore uses spaCy for sentence segmentation.
+spacy
