@@ -118,8 +118,8 @@ model checkpoints, and dependencies used in our experiments.
 
 The API repository, including Docker deployment instructions and client
 examples, is available at:
+https://github.com/tchewik/kg-metrics-api
 
-https://github.com/tchewik/kg2text-eval
 
 For reproducibility, we recommend the hosted/remote API when available.
 The same service can be deployed locally with Docker for offline use.
